@@ -1,8 +1,9 @@
+# hello.py
 """
-Author : KIM SANGMI
-Date : 2020-12-12
-이 프로그램은 점프투파이썬을 공부 한 흔적이다.
+book : Jump to Python
+Date : 2021-02-02
+이 프로그램은 점프 투 파이썬을 공부한 내용이다.
+This program is about studying Python with a book called Jump to Python
 """
 
-# heelo.py
 print("Hello World")
