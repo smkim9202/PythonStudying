@@ -1,18 +1,16 @@
 # coffee.py
+
 coffee = 10
 while True:
-    money = int(input("Please insert a coin.\ncoin: "))
+    money = int(input("insert coins: "))
     if money == 300:
-        print("Here's your coffee!")
-        coffee = coffee - 1
-        print("%d coffees left." %coffee)
+        print("give coffee")
+        coffee -= 1
     elif money > 300:
-        print("Here's your coffee and change of %dwon!" %(money - 300))
-        coffee = coffee - 1
-        print("%d coffees left." %coffee)
+        print("give coffee. give %d coins" %(money-300))
+        coffee -= 1
     else:
-        print("short of coins...")
-        print("%d coffees left..." %coffee)
+        print("give %d coins" %money)
     if coffee == 0:
-        print("sold out!")
+        print("coffee sold out")
         break
