@@ -1,6 +1,7 @@
 # vartest_error.py
-def vartest(Hello):
-    Hello = Hello + 1
 
-vartest(4)
-vartest(Hello)
+def vartest(a):
+    a = a+1
+
+vartest(a)
+print(a)
